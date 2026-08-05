@@ -20,8 +20,6 @@ def run():
 def keep_alive():
   t = threading.Thread(target=run)
   t.start()
-
-
 # --- 2. Sizning Telethon userbotingiz ---
 API_ID = 35014950
 API_HASH = 'a4fb1b1895017c8b0a72c2e40c4a63d6'
